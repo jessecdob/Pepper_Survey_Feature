@@ -8,6 +8,7 @@
     <Resources>
         <File name="" src=".gitattributes" />
         <File name="README" src="README.md" />
+        <File name="choice_sentences" src="behavior_1/Aldebaran/choice_sentences.xml" />
     </Resources>
     <Topics />
     <IgnoredPaths />
