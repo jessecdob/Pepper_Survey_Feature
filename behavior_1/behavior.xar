@@ -167,8 +167,7 @@ class MyClass(GeneratedClass):
               <bitmap>media/images/box/root.png</bitmap>
               <script language="4">
                 <content>
-                  <![CDATA[vvv
-
+                  <![CDATA[
 class MyClass(GeneratedClass):
 
     def __init__(self):
@@ -278,7 +277,7 @@ class MyClass(GeneratedClass):
               <bitmap>media/images/box/internet/internet.png</bitmap>
               <script language="4">
                 <content>
-                  <![CDATA[vv
+                  <![CDATA[
 
 class MyClass(GeneratedClass):
 
@@ -305,6 +304,7 @@ class MyClass(GeneratedClass):
         tabletService = self._getTabletService()
         if tabletService:
             tabletService.showWebview()
+            tabletService.loadUrl("https://google.com")
         else:
             self.logger.warning("ALTabletService not found.")
         self.onStopped()]]>
